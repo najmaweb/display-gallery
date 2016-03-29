@@ -1,0 +1,64 @@
+.padimenu{
+	display: inline-block;
+}
+.padimenu .lpmenu{
+	display:inline;
+	cursor: pointer;
+	padding: 2px 2px 2px 2px ;
+}
+.padimenu .lpmenu:hover{
+	display:inline;
+	cursor: pointer;
+	color:red;
+	background-color: gold;
+}
+@media(max-width:768px){
+	.pimage{
+		width: 250px;
+	}
+}
+@media(max-width:980px){
+	.pimage{
+		width: 300px;
+		padding: 5px 5px 5px 5px ;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	.pimg{
+		padding-left: auto;
+		padding-right: auto;	
+	}
+	.padimenu .lpmenu{
+		font-size:18px;
+	}
+}
+@media(max-width:360px){
+	.pimage{
+		width: 100px;
+		padding: 5px 5px 5px 5px ;
+	}
+	.pimg{
+		padding-left: auto;
+		padding-right: auto;	
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	.padimenu .lpmenu{
+		font-size:12px;
+	}
+}
+@media(max-width:320px){
+	.pimage{
+		width: 100px;
+		padding: 5px 5px 5px 5px ;
+	}
+	.pimg{
+		padding-left: auto;
+		padding-right: auto;	
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	.padimenu .lpmenu{
+		font-size:8px;
+	}
+}
